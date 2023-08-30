@@ -1,0 +1,89 @@
+---
+dns:
+  8.8.8.8: main
+  192.168.52.1: local
+
+allow:
+  125.209.192.0/18: line
+  31.13.64.0/18: whatsapp
+  157.240.0.0/16: whatsapp
+  163.70.128.60: whatsapp
+  216.239.35.0: google time server
+  71.18.0.0/16: bytedance (tiktok)
+
+# allow listed hosts
+okhosts:
+  - twitter.com
+  - slackb.com
+  - tigger-citadel.touchtype-fluency.com
+  - firebase-settings.crashlytics.com
+  - app-measurement.com
+  - sb.scorecardresearch.com
+  - slack.com
+  - framapiaf.org
+  - mon.isnssdk.com
+  - agnss.goog
+  - addictpodcast.com
+  - noagendaassets.com
+  - app.adjust.com
+  - mastodon.social
+  - ublockorigin.pages.dev
+  - x.com
+
+oksuffixes:
+  - .twimg.com
+  - .twitch.tv
+  - .nflxso.net
+  - .google-analytics.com
+  - .googleapis.com
+  - .gstatic.com
+  - .twitter.com
+  - .google.com
+  - .line-apps.com
+  - .tiktokv.com
+  - .trusteer.com
+  - .jtvnw.net
+  - .signal.org
+  - .ttvnw.net
+  - .doubleclick.net
+  - .googleadservices.com
+  - .facebook.com
+  - .linecorp.com
+  - .line-scdn.net
+  - .netflix.com
+  - .twitchcdn.netA
+  - .t.co
+  - .twitchcdn.net
+  - .branch.io
+  - .swiftkey.com
+  - .spotifycdn.com
+  - .spotify.com
+  - .tiktokcdn.com
+  - .googleusercontent.com
+  - .line.naver.jp
+  - .scdn.co
+  - .gvt2.com
+  - .redcircle.com
+  - .isnssdk.com
+  - .mozilla.net
+  - .mozilla.com
+  - .mozilla.org
+  - .tiktokv.com
+  - .pitaya-clientai.com
+  - .jsdelivr.net
+  - .github.io
+  - .line.me
+  - .omnycontent.com
+  - .whatsapp.net
+  - .ytimg.com
+  - .googletagmanager.com
+  - .amazon.co.uk
+  - .amazon.com
+  - .byteeffecttos-g.com
+  - .deepl.com
+  - .fbcdn.net
+  - .framapiaf.org
+  - .cdninstagram.com
+
+su:
+  3.0.0.0/9: amazon

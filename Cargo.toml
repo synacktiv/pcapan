@@ -1,0 +1,20 @@
+[package]
+name = "pcapan"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ipnetwork = "0.20.0"
+pcap = "1.1.0"
+structopt = "0.3.26"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9.25"
+pdu = "1.4.2"
+tls-parser = "0.11.0"
+libc = "0.2.147"
+httparse = "1.8.0"
+x509-parser = "0.15.1"
+reqwest = {version = "0.11.18", features = ["blocking", "json"]}
+dns-parser = "0.8.0"
